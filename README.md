@@ -15,7 +15,7 @@ Random oversampling is one way to deal with biased data. Random oversampling ran
 
 The model identified a large number of false positives which hurt the model's precision.
 
-![NRO]()
+![NRO](https://github.com/ryanmorin/credit_risk_analysis/blob/main/NRO.png)
 
 #### SMOTE Oversampling (SMOTE)
 In SMOTE, for an instance from the minority class, a number of its closest neighbors is chosen. Based on the values of these neighbors, new values are created.
@@ -26,7 +26,7 @@ In SMOTE, for an instance from the minority class, a number of its closest neigh
 
 The model identified a large number of false positives which hurt the model's precision.
 
-![SMOTE]()
+![SMOTE](https://github.com/ryanmorin/credit_risk_analysis/blob/main/SMOTE.png)
 
 ### Undersampling
 #### Cluster Centroids
@@ -38,7 +38,7 @@ This technique undersamples the dataset by reducing the number of major class da
 
 The model identified a large number of false positives which hurt the model's precision.
 
-![CC]()
+![CC](https://github.com/ryanmorin/credit_risk_analysis/blob/main/CC.png)
 
 ### Combo Over & Under Sampling
 #### SMOTEENN
@@ -50,7 +50,7 @@ Oversampling methods duplicate or create new synthetic examples in the minority 
 
 The model identified a large number of false positives which hurt the model's precision.
 
-![SMOTEENN]()
+![SMOTEENN](https://github.com/ryanmorin/credit_risk_analysis/blob/main/SMOTEENN.png)
 
 ### Ensemble Models
 #### Random Forest Classifiers (RF)
@@ -62,7 +62,7 @@ The key principle underlying the random forest approach comprises the constructi
 
 The model identified a large number of false positives which hurt the model's precision.
 
-![RF]()
+![RF](https://github.com/ryanmorin/credit_risk_analysis/blob/main/RF.png)
 
 #### Easy Ensemble Classifier (EE)
 The Easy Ensemble involves creating balanced samples of the training dataset by selecting all examples from the minority class and a subset from the majority class.
@@ -73,7 +73,7 @@ The Easy Ensemble involves creating balanced samples of the training dataset by 
 
 The model identified a large number of false positives which hurt the model's precision.
 
-![EE]()
+![EE](https://github.com/ryanmorin/credit_risk_analysis/blob/main/EE.png)
 
 ## Conclusion
 All models have a very low level of precision when it comes to predicting high-risk loans. The EE model has the best recall number and Balance Accuracy Score. Yet the EE like the other models has a difficult time predicting a true high-risk loan.  Many loans (over 90%) that it predicts as high-risk look like a high-risk loan but never become one. Therefore none of these models should be used.
