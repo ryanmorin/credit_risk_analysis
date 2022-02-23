@@ -73,7 +73,7 @@ The Easy Ensemble involves creating balanced samples of the training dataset by 
 
 The model identified a large number of false positives which hurt the model's precision.
 
-![EE](https://github.com/ryanmorin/credit_risk_analysis/blob/main/EE.png)
+![EEC](https://github.com/ryanmorin/credit_risk_analysis/blob/main/EE.png)
 
 ## Conclusion
 All models have a very low level of precision when it comes to predicting high-risk loans. The EE model has the best recall number and Balance Accuracy Score. Yet the EE like the other models has a difficult time predicting a true high-risk loan.  Many loans (over 90%) that it predicts as high-risk look like a high-risk loan but never become one. Therefore none of these models should be used.
